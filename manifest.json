@@ -1,0 +1,6 @@
+{
+    "name": "Link Grabber Extension",
+    "description": "Scrapes web pages for their links and presents them to the user.",
+    "version": "1.0",
+    "manifest_version": 3
+  }
