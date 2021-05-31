@@ -1,0 +1,19 @@
+div{
+    /* The only divs use the same general styling so just set the default div styling to that general styling*/
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#titleView{
+    margin-top: 7.5%; /* Add top margin for styling gap with top of page*/
+}
+
+#titleView h3{
+    margin-bottom: 10px; /* Change default h3 bottom margin*/
+}
+
+#linkView a{
+    display: block; /* Force all a elements to their own lines*/
+}
