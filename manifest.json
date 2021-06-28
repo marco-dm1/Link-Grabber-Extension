@@ -3,5 +3,12 @@
     "description": "Scrapes web pages for their links and presents them to the user.",
     "version": "1.0",
     "manifest_version": 3,
-    "permissions": ["tabs"]
+    "permissions": ["tabs"],
+    "action": {
+      "default_title": "Grab Links",
+      "default_popup": "visuals/data.html"
+    },
+    "background": {
+      "service_worker": "linkgrab.js"
+    }
   }
