@@ -14,6 +14,11 @@ div{
     margin-bottom: 10px; /* Change default h3 bottom margin*/
 }
 
+#linkView{
+    width: 40%; /* Give the linkView a smaller width than the titleView*/
+    margin-left: 30%; /* Center the linkView in relation to the titleView*/
+}
+
 #linkView a{
     display: block; /* Force all a elements to their own lines*/
 }
